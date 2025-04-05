@@ -21,7 +21,7 @@ export function Footer() {
             </div>
           </div>
           <div className="flex justify-start md:justify-end space-x-6 items-center">
-            <div className="text-sm uppercase">UNITED STATES (USD $)</div>
+            <div className="text-sm uppercase">UNITED KINGDOM (GBP £)</div>
             <div className="border-l border-gray-300 pl-6 flex space-x-4">
               <a href="#" className="text-sm">CONTACT</a>
               <a href="#" className="text-sm">CLIENT SERVICES</a>
