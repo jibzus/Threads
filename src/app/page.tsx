@@ -70,7 +70,7 @@ const products = [
     brand: "Threads By Cadogan",
     slug: "TBC-long-sleeve-tee-black"
   },
-   {
+  {
     id: "7",
     title: "Hoodie",
     price: 40,
@@ -135,6 +135,7 @@ const products = [
     ],
     brand: "Threads By Cadogan",
     slug: "TBC-long-sleeve-tee-cream" 
+  }
 ];
 
 export default function CollectionPage() {
