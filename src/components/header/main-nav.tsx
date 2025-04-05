@@ -11,7 +11,7 @@ export function MainNav() {
     <nav className="flex items-center justify-between w-full py-4 px-4 lg:px-8">
       <div className="flex items-center space-x-6">
         <Link href="/" className="hidden lg:block nav-link">
-          FEAR OF GOD
+          Threads By Cadogan
         </Link>
         <Sheet open={open} onOpenChange={setOpen}>
           <SheetTrigger asChild className="lg:hidden">
@@ -24,27 +24,9 @@ export function MainNav() {
           <SheetContent side="left" className="w-full max-w-xs">
             <div className="flex flex-col space-y-6 p-4">
               <Link href="/" className="nav-link" onClick={() => setOpen(false)}>
-                FEAR OF GOD
+                Threads By Cadogan
               </Link>
-              <Link href="/collections/essentials" className="nav-link" onClick={() => setOpen(false)}>
-                ESSENTIALS
-              </Link>
-              <Link href="/collections/athletics" className="nav-link" onClick={() => setOpen(false)}>
-                ATHLETICS
-              </Link>
-              <div className="mt-8">
-                <h3 className="text-xs uppercase mb-2 opacity-70">Shop</h3>
-                <div className="flex flex-col space-y-3">
-                  <Link href="/collections/essentials-men" className="nav-link text-xs" onClick={() => setOpen(false)}>
-                    SHOP MENS
-                  </Link>
-                  <Link href="/collections/essentials-women" className="nav-link text-xs" onClick={() => setOpen(false)}>
-                    SHOP WOMENS
-                  </Link>
-                  <Link href="/collections/essentials-kids" className="nav-link text-xs" onClick={() => setOpen(false)}>
-                    SHOP KIDS
-                  </Link>
-                </div>
+              </div>
               </div>
             </div>
           </SheetContent>
@@ -53,20 +35,11 @@ export function MainNav() {
 
       <div className="flex-1 flex justify-center">
         <Link href="/" className="flex-none text-center">
-          <h1 className="text-xl font-normal tracking-wider">FEAR OF GOD</h1>
+          <h1 className="text-xl font-normal tracking-wider">Threads By Cadogan</h1>
         </Link>
       </div>
 
-      <div className="flex items-center space-x-6">
-        <div className="hidden lg:flex items-center space-x-8">
-          <Link href="/collections/essentials" className="nav-link">
-            ESSENTIALS
-          </Link>
-          <Link href="/collections/athletics" className="nav-link">
-            ATHLETICS
-          </Link>
-        </div>
-        <Link href="/search" className="button-reset">
+      <Link href="/search" className="button-reset">
           <span className="sr-only">Search</span>
           <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className="w-5 h-5">
             <path fill="currentColor" d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
