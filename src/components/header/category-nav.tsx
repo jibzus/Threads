@@ -35,7 +35,7 @@ export function CategoryNav() {
                     </label>
                     <label className="flex items-center space-x-2">
                       <input type="checkbox" className="form-checkbox" />
-                      <span>T-SHIRT</span>
+                      <span>T-SHIRTs</span>
                     </label>
                   </div>
                 </div>
