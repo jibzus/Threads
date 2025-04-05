@@ -23,24 +23,6 @@ export function CategoryNav() {
                 <h3 className="uppercase text-sm mb-6">Refine By</h3>
 
                 <div className="border-t border-gray-200 py-4">
-                  <h4 className="uppercase text-xs mb-3">Category</h4>
-                  <div className="flex flex-col space-y-2 text-xs">
-                    <label className="flex items-center space-x-2">
-                      <input type="checkbox" className="form-checkbox" />
-                      <span>MENS</span>
-                    </label>
-                    <label className="flex items-center space-x-2">
-                      <input type="checkbox" className="form-checkbox" />
-                      <span>WOMENS</span>
-                    </label>
-                    <label className="flex items-center space-x-2">
-                      <input type="checkbox" className="form-checkbox" />
-                      <span>KIDS</span>
-                    </label>
-                  </div>
-                </div>
-
-                <div className="border-t border-gray-200 py-4">
                   <h4 className="uppercase text-xs mb-3">Product Type</h4>
                   <div className="flex flex-col space-y-2 text-xs">
                     <label className="flex items-center space-x-2">
@@ -49,19 +31,11 @@ export function CategoryNav() {
                     </label>
                     <label className="flex items-center space-x-2">
                       <input type="checkbox" className="form-checkbox" />
-                      <span>CREWNECK</span>
-                    </label>
-                    <label className="flex items-center space-x-2">
-                      <input type="checkbox" className="form-checkbox" />
-                      <span>HOODIE</span>
+                      <span>HOODIEs</span>
                     </label>
                     <label className="flex items-center space-x-2">
                       <input type="checkbox" className="form-checkbox" />
                       <span>T-SHIRT</span>
-                    </label>
-                    <label className="flex items-center space-x-2">
-                      <input type="checkbox" className="form-checkbox" />
-                      <span>OUTERWEAR</span>
                     </label>
                   </div>
                 </div>
@@ -69,10 +43,6 @@ export function CategoryNav() {
                 <div className="border-t border-gray-200 py-4">
                   <h4 className="uppercase text-xs mb-3">Sizes</h4>
                   <div className="flex flex-col space-y-2 text-xs">
-                    <label className="flex items-center space-x-2">
-                      <input type="checkbox" className="form-checkbox" />
-                      <span>XS</span>
-                    </label>
                     <label className="flex items-center space-x-2">
                       <input type="checkbox" className="form-checkbox" />
                       <span>S</span>
@@ -88,11 +58,7 @@ export function CategoryNav() {
                     <label className="flex items-center space-x-2">
                       <input type="checkbox" className="form-checkbox" />
                       <span>XL</span>
-                    </label>
-                    <label className="flex items-center space-x-2">
-                      <input type="checkbox" className="form-checkbox" />
-                      <span>XXL</span>
-                    </label>
+                   </label>
                   </div>
                 </div>
 
@@ -109,11 +75,11 @@ export function CategoryNav() {
                     </label>
                     <label className="flex items-center space-x-2">
                       <input type="checkbox" className="form-checkbox" />
-                      <span>Homestead Heather</span>
+                      <span>Cream</span>
                     </label>
                     <label className="flex items-center space-x-2">
                       <input type="checkbox" className="form-checkbox" />
-                      <span>Woodland Camo</span>
+                      <span>Navy Blue</span>
                     </label>
                   </div>
                 </div>
@@ -137,20 +103,7 @@ export function CategoryNav() {
             </SheetContent>
           </Sheet>
 
-          <div className="hidden md:flex items-center space-x-6">
-            <Link href="/collections/essentials-men" className="nav-link text-xs">
-              SHOP MENS
-            </Link>
-            <Link href="/collections/essentials-women" className="nav-link text-xs">
-              SHOP WOMENS
-            </Link>
-            <Link href="/collections/essentials-kids" className="nav-link text-xs">
-              SHOP KIDS
-            </Link>
-          </div>
-        </div>
-
-        <div className="relative">
+          <div className="relative">
           <select className="appearance-none bg-transparent border-none text-xs uppercase tracking-wider font-light pr-6 cursor-pointer">
             <option>Relevance</option>
             <option>Best selling</option>
