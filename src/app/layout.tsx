@@ -3,8 +3,8 @@ import "./globals.css";
 import ClientBody from "./ClientBody";
 
 export const metadata: Metadata = {
-  title: "ESSENTIALS - New Releases | Fear of God",
-  description: "Shop the latest ESSENTIALS collection by Fear of God - premium streetwear essentials.",
+  title: "Threads | by Cadogan",
+  description: "Shop high quality hoodies",
   icons: {
     icon: "/favicon.svg",
   },
