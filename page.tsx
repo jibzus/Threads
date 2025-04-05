@@ -135,7 +135,7 @@ const products = [
     ],
     brand: "Threads By Cadogan",
     slug: "TBC-long-sleeve-tee-cream" 
-  }
+  },
     ];
 
 export default function CollectionPage() {
