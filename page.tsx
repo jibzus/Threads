@@ -2,7 +2,7 @@ import { Header } from "@/components/header/header";
 import { Footer } from "@/components/footer/footer";
 import { ProductCard } from "@/components/products/product-card";
 
-// Mock product data based on the Fear of God ESSENTIALS collection
+// Mock product data based on the Threads By Cadogan collection
 const products = [
   {
     id: "1",
