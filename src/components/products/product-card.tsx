@@ -8,7 +8,7 @@ interface ProductCardProps {
   title: string;
   price: number;
   images: string[];
-  brand: string;
+  brand?: string; // Made optional since we're not displaying it
   slug: string;
   soldOut?: boolean;
 }
@@ -44,9 +44,8 @@ export function ProductCard({ id, title, price, images, brand, slug, soldOut = f
           </div>
         )}
       </div>
-      <div className="product-brand">{brand}</div>
       <h3 className="product-title">{title}</h3>
-      <div className="product-price">$ {price}</div>
+      <div className="product-price">£{price}</div>
     </div>
   );
 }
